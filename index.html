@@ -18,7 +18,7 @@
 			<img src="img/petstore_logo.png" alt="Logo" class="img-responsive pull-left" id="logo">
 			<span>Pet Store</span>
 		<!--</div>-->
-		<ul class="nav nav-pills">
+		<ul class="nav nav-pills pull-right">
   		<li role="presentation"><a href="#">Home</a></li>
   		<li role="presentation"><a href="#">Products</a></li>
   		<li role="presentation"><a href="#">Contact Us</a></li>
@@ -32,10 +32,12 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-9"> <!-- FEATURED section starts -->
+			<div class="col-md-8"> <!-- FEATURED section starts -->
 				<div class="row">
+					<div class="col-md-12">
 					<h2>FEATURED</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque voluptatem pariatur sint maxime vitae, quos maiores deleniti omnis dignissimos consequuntur! Vitae sed tempore praesentium, eos debitis quo repellat sequi officia.</p>
+				</div>
 				</div>
 				<div class="row">
 					<div class="col-md-4">
@@ -82,15 +84,48 @@
 					</div>
 				</div>
 			</div> <!-- FEATURED END -->
-			<div class="col-md-3"> <!-- services section starts -->
-
+			<div class="col-md-3 col-md-offset-1" id="services-section"> <!-- services section starts -->
+				<div class="row"> <!-- START SERVICES -->
+					<h2>SERVICES</h2>
+					<ul class="nav nav-pills nav-stacked" id="services-nav">
+	  				<li role="presentation"><a href="#">Adopt a Cat</a></li>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+	  				<li role="presentation"><a href="#">Adopt a Dog</a></li>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+	  				<li role="presentation"><a href="#">Adopt a Fish</a></li>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+					</ul>
+				</div> <!-- END SERVICES -->
 			</div> <!--END -->
 		</div>
 	</div>
 
-	<footer>
 		<div id="social-media">
-
+		<footer class="comtainer-fluid">
+			<div class="container">
+				<div class="row" id="grey-text">
+					<div class="col-md-2">
+						<img src="img/petstore_logo.png" alt="Logo" class="img-responsive" id="footer-logo">
+					</div>
+					<div class="col-md-2 border-left-grey">
+						<address>
+							Pet Store<br />
+							Fresno, CA<br />
+							info@petstore.com
+					</address>
+					</div>
+					<div class="col-md-2 border-left-grey">
+						<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+						<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center"></div>
+						<p>&copy; Pet Store Inc. All rights reserved.</p>
+				</div>
+			</div>
+		</footer>
 			<!--
 			Pet Store
 			Fresno, CA
@@ -100,13 +135,13 @@
 			<!--<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 			<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 			<a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-			<a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>-->
+			<a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
 
 		</div>
 		<div id="copyright">
 				&copy; Pet Store Inc. All rights reserved.
 		</div>
-	</footer>
+	</footer> -->
 
 	<!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
