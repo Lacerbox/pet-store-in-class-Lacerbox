@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+/* UNIVERSALS */
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  width: 90px;
+  height: 65px;
+}
+
+/* FOR ' -fluid' IN HEADER */
+
+/*header.container-fluid {
+  padding-left: 164;
+  padding-left: 164;
+}
+
+/*#logo-img>span {  DIRECT DECENDENT TAG
+  display: inline-block;
+  font-family: 'Lobster', cursive;
+  color: #f2777c;
+  font-size: 40px;
+}*/
+
+/*#logo-wrapper {  NEW
+  padding-top: 15px;
+}*/
+
+#logo~span {  /* SIBLING TAG */
+  display: inline-block;
+  font-family: 'Satisfy', cursive;
+  color: #f2777c;
+  font-size: 35px;
+  text-transform: capitalize; /* FIRST LETTER CAP */
+  margin-top: 7px;
+}
+
+.nav-pills {
+  float: right;
+}
+
+.nav>li>a {
+  font-size: 19px;
+  color: #82b9e2;
+  margin-top: 14px;
+}
+
+/* CALL TO ACTION STARTS HERE */
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 422px;
+}
+
+.jumbotron>p {
+  text-transform: uppercase; /* ALL CAPS */
+  color: #fff;
+  font-size: 26px;
+  /*font-weight: normal;*/
+  margin-top: 15px;
+}
+
+/*PRODUCTS*/
+.btn-default {
+  background-color: #5bc0de;
+  color: #fff;
+  border: none;
+}
+
+.thumbnail {
+  background-color: #edf1f4;
+  padding: 16px;
+}
+
+.product-gutter {
+  margin-left; 7px;
+  margin-right: ; 7px;
+}
+
+
+/* FOOTER SECTION */
+footer {
+    background-color: #231f20;
+    color: #acaaab;
+    height: 158px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    clear: both;
+}
+
+.fa {
+    font-size: 42px;
+    padding: 0 12px;
+}
+
+footer a, footer a:hover, footer a:visited {
+    color: #acaaab;
+}
+
+#social-media {
+    text-align: center;
+    padding-top: 24px;
+}
+
+#copyright {
+    color: #4c4849;
+    text-align: center;
+    padding-top: 95px;
+}
