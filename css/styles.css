@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+/* FOR IMPORTING FONTS */
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 
 /* UNIVERSALS */
@@ -91,22 +90,10 @@ body, html {
 
 /* FOOTER SECTION */
 
-/*footer {
-    height: 158px;
-    width: 100%;
-    background-color: #231f20;
-    color: #acaaab;
-    position: relative;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    clear: both;
-}*/
-
 footer {
     background-color: #231f20;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 #grey-text {
@@ -129,27 +116,6 @@ address {
 }
 
 #footer-logo {
-  height: 100px;
-  width: 120px;
+  height: 80px;
+  width: 110px;
 }
-
-
-/*.fa {
-    font-size: 42px;
-    padding: 0 12px;
-}
-
-footer a, footer a:hover, footer a:visited {
-    color: #acaaab;
-}
-
-#social-media {
-    text-align: center;
-    padding-top: 24px;
-}
-
-#copyright {
-    color: #4c4849;
-    text-align: center;
-    padding-top: 95px;
-}*/
